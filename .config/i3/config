@@ -29,7 +29,8 @@ set $ws7 "7"
 
 # USER DEFINED
 gaps inner 10
-gaps outer 0
+gaps outer 5
+smart_gaps inverse_outer
 # gaps
 set $mode_gaps Gaps: (o)uter, (i)nner, (h)orizontal, (v)ertical, (t)op, (r)ight, (b)ottom, (l)eft
 set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
@@ -76,11 +77,11 @@ bar {
     statusline #ff007b
     separator #ff007b
 
-    focused_workspace  #001013 #ff007b #001013
-    active_workspace   #001013 #60002e #001013
-    inactive_workspace #001013 #60002e #001013
-    urgent_workspace   #ff007b #001013 #ff007b
-    binding_mode    #001013 #60002e #001013
+    focused_workspace  #ff007b #001013 #ff007b
+    active_workspace   #001013 #001013 #60002e
+    inactive_workspace #001013 #001013 #60002e
+    urgent_workspace   #1F51FF #001013 #1F51FF
+    binding_mode    #001013 #60002e #ff007b
   }
 }
 for_window [class="^.*"] border pixel 4
