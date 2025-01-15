@@ -12,8 +12,6 @@ set -gx VK_ICD_FILENAMES /usr/share/vulkan/icd.d/nvidia_icd.json
 set -gx VK_LAYER_PATH $VULKAN_SDK/share/vulkan/explicit_layer.d
 set -gx VK_ADD_LAYER_PATH $VULKAN_SDK/share/vulkan/explicit_layer.d
 set -gx VK_LOADER_LAYERS_ENABLE "*api_dump:*validation"
-set -gx OPENAI_API_KEY sk-proj-5UJwloeaqLmqKojkmg3KT3BlbkFJQxy5QnpNlAMjDim3irwG
-
 set -gx XDG_CONFIG_HOME $HOME/.config
 
 
