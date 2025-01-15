@@ -1,5 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export OPENAI_API_KEY:sk\x2dproj\x2dyQ7SGuIqHuRSRUxPSuGGa9RujQVdPMnk5vzzS2i4QJrz55Ylt2C4tLutRrD3Th18HbeFEr2ckfT3BlbkFJ4TuRg7T9Ps9M_2yoxb8GCjMCPXJlQqWREkighFC8s2bRocERtPMkPTxk82uLd7r\x2dIcPEo8NbQA
 SETUVAR --export TERM:tmux\x2d256color
 SETUVAR __fish_initialized:3400
 SETUVAR _fisher_budimanjojo_2F_tmux_2E_fish_files:\x7e/\x2econfig/fish/conf\x2ed/tmux\x2eextra\x2econf\x1e\x7e/\x2econfig/fish/conf\x2ed/tmux\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/tmux\x2eonly\x2econf

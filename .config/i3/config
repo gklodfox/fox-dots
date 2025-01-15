@@ -73,20 +73,18 @@ bar {
   tray_output $rightDisplay
   colors {
     background #001013
-    statusline #ff0000
-    separator #ff0000
+    statusline #ff007b
+    separator #ff007b
+
+    focused_workspace  #001013 #ff007b #001013
+    active_workspace   #001013 #60002e #001013
+    inactive_workspace #001013 #60002e #001013
+    urgent_workspace   #ff007b #001013 #ff007b
+    binding_mode    #001013 #60002e #001013
   }
-  # colors {
-  #   background $000000
-  #   statusline $ff0000
-  #   separator $191919
-  #   focused_workspace       $bgcolor        $bgcolor        $text
-  #   inactive_workspace      $in-bgcolor     $in-bgcolor     $text
-  #   urgent_workspace        $u-bgcolor      $u-bgcolor      $text
-  # }
 }
-for_window [class="^.*"] border pixel 3
-new_window 1pixel
-default_border pixel 1
-default_floating_border pixel 1
+for_window [class="^.*"] border pixel 4
+# new_window 2pixel
+default_border pixel 4
+default_floating_border pixel 2
 

@@ -2,11 +2,11 @@ font pango:Iosevka Nerd Font Mono 13
 # Color scheme
 
 set $bgcolor #ff007b
-set $in-bgcolor #363636
-set $text #ff007b
+set $in-bgcolor #60001f
+set $text #001013
 set $u-bgcolor #ff007b
 set $indicator #a8a3c1
-set $in-text #969696
+set $in-text #ff007b
 set $focused-ws #ff007b
 set $bar-color  #ff007b
 
