@@ -71,6 +71,11 @@ bar {
   status_command i3blocks -c $XDG_CONFIG_HOME/i3/blocks
   i3bar_command i3bar --transparency
   tray_output $rightDisplay
+  colors {
+    background #001013
+    statusline #ff0000
+    separator #ff0000
+  }
   # colors {
   #   background $000000
   #   statusline $ff0000

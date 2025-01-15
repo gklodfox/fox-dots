@@ -1,16 +1,16 @@
 font pango:Iosevka Nerd Font Mono 13
 # Color scheme
 
-set $bgcolor #ff0000
+set $bgcolor #ff007b
 set $in-bgcolor #363636
-set $text #ffffff
-set $u-bgcolor #ff0000
+set $text #ff007b
+set $u-bgcolor #ff007b
 set $indicator #a8a3c1
 set $in-text #969696
-set $focused-ws #ff0000
-set $bar-color  #ff0000
+set $focused-ws #ff007b
+set $bar-color  #ff007b
 
-# bgcolor:background color
+# bgcolor:background color also border
 # in-bgcolor: inactive background color
 # text: text color
 # u-bgcolor: background of urgent action
