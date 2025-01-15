@@ -1,0 +1,9 @@
+set audio.driver pulseaudio
+set audio.period-size 256
+set audio.periods 8
+set midi.driver alsa_seq
+set midi.alsa.device hw:2,0,0
+set midi.autoconnect True
+set synth.gain 1.0
+set synth.chorus.active False
+set synth.default-soundfont /usr/share/soundfonts/Yamaha\ C5\ Grand-v2.4.sf2

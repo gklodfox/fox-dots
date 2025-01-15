@@ -1,0 +1,29 @@
+[env]
+TERM = "tmux-256color"
+#
+[terminal.shell]
+program = "/usr/bin/fish"
+# args = ["new-session", "-A", "-D", "-s", "main"]
+
+[window]
+decorations = "Full"
+dimensions = {columns = 0, lines = 0}
+padding = { x = 5, y = 5 }
+dynamic_padding = true
+dynamic_title = true
+
+[font]
+builtin_box_drawing = false
+size = 13
+
+[font.bold_italic]
+family = "Iosevka Nerd Font Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "Iosevka Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "Iosevka Nerd Font Mono"
+style = "Regular"
