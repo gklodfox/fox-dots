@@ -3,7 +3,7 @@ include $XDG_CONFIG_HOME/i3/config.d/*
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:Iosevka Nerd Font Oblique 13
+font pango:Iosevka Nerd Font Mono 12
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -15,9 +15,9 @@ tiling_drag modifier titlebar
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1: Messages"
-set $ws2 "2: Terminal"
-set $ws3 "3: Browser"
+set $ws1 "1:  Messages"
+set $ws2 "2:  Terminal"
+set $ws3 "3:  Browser"
 set $ws4 "4: VM"
 set $ws5 "5"
 set $ws6 "6"
@@ -29,7 +29,7 @@ set $ws7 "7"
 
 # USER DEFINED
 gaps inner 10
-gaps outer 5
+gaps outer 3
 smart_gaps inverse_outer
 # gaps
 set $mode_gaps Gaps: (o)uter, (i)nner, (h)orizontal, (v)ertical, (t)op, (r)ight, (b)ottom, (l)eft
@@ -72,15 +72,16 @@ bar {
   status_command i3blocks -c $XDG_CONFIG_HOME/i3/blocks
   i3bar_command i3bar --transparency
   tray_output $rightDisplay
+  padding 8px 5px 0 2px
   colors {
-    background #001013
+    background #00101300
     statusline #ff007b
     separator #ff007b
 
-    focused_workspace  #ff007b #001013 #ff007b
-    active_workspace   #001013 #001013 #60002e
-    inactive_workspace #001013 #001013 #60002e
-    urgent_workspace   #1F51FF #001013 #1F51FF
+    focused_workspace  #ff007b #00101300 #ff007b
+    active_workspace   #001013 #00101300 #60002e
+    inactive_workspace #001013 #00101300 #60002e
+    urgent_workspace   #ff007b #ff007b #001013
     binding_mode    #001013 #60002e #ff007b
   }
 }

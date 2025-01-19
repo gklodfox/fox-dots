@@ -5,5 +5,5 @@ set midi.driver alsa_seq
 set midi.alsa.device hw:2,0,0
 set midi.autoconnect True
 set synth.gain 1.0
-set synth.chorus.active False
-set synth.default-soundfont /usr/share/soundfonts/Yamaha\ C5\ Grand-v2.4.sf2
+set synth.chorus.active no
+set synth.default-soundfont /home/fox/Documents/soundfonts/ChateauGrand-Plus-Instruments-bs16i-v4.sf2
