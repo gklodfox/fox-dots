@@ -19,19 +19,28 @@
 # ==========================
 # # The config file consists of simple key-value pairs,
 # # separated by equals signs.
+window-decoration = false
+bold-is-bright = true
+term = xterm-ghostty
+window-save-state = always
+adjust-cell-height = 35%
+window-padding-balance = true
+cursor-style = block
+mouse-hide-while-typing = true
 macos-titlebar-proxy-icon = hidden
 title = " "
 font-family = Iosevka Nerd Font Mono Regular
 font-family-bold = Iosevka Nerd Font Mono Bold
 font-family-italic = Iosevka Nerd Font Mono Italic
 font-family-bold-italic = Iosevka Nerd Font Mono Bold Italic
-font-size = 12
-shell-integration-features = no-cursor,no-sudo,title
-shell-integration = fish
+font-size = 13
+shell-integration-features = sudo,no-title
 
 background = #000000
-background-opacity = 0.8
+background-opacity = 0.4
 foreground = #ff007b
+
+keybind = cmd+g>r=reload_config
 # window-padding-x = 2
 #
 # # Spacing around the equals sign does not matter.
