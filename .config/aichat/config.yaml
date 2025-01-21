@@ -6,7 +6,3 @@ keybindings: vi
 editor: nvim
 wrap: auto
 wrap_code: true
-
-model: openai
-clients:
-- type: openai
