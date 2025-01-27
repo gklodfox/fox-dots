@@ -22,3 +22,6 @@
 [submodule ".config/dunst"]
 	path = .config/dunst
 	url = https://github.com/gklodfox/fox-dunst-config.git
+[submodule ".config/ghostty"]
+	path = .config/ghostty
+	url = https://github.com/gklodfox/fox-ghostty-config.git
