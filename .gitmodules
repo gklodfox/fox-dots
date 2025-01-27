@@ -19,3 +19,6 @@
 [submodule ".config/aichat"]
 	path = .config/aichat
 	url = https://github.com/gklodfox/fox-aichat-config.git
+[submodule ".config/dunst"]
+	path = .config/dunst
+	url = https://github.com/gklodfox/fox-dunst-config.git
