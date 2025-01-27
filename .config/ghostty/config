@@ -23,25 +23,25 @@ window-decoration = false
 bold-is-bright = true
 term = xterm-ghostty
 window-save-state = always
-adjust-cell-height = 35%
+adjust-cell-height = 25%
 window-padding-balance = true
 cursor-style = block
 mouse-hide-while-typing = true
 macos-titlebar-proxy-icon = hidden
 title = " "
-font-family = Iosevka Nerd Font Mono Regular
-font-family-bold = Iosevka Nerd Font Mono Bold
-font-family-italic = Iosevka Nerd Font Mono Italic
-font-family-bold-italic = Iosevka Nerd Font Mono Bold Italic
-font-size = 13
-shell-integration-features = sudo,no-title
+font-family = Iosevka Nerd Font Regular
+font-family-bold = Iosevka Nerd Font Bold
+font-family-italic = Iosevka Nerd Font Italic
+font-family-bold-italic = Iosevka Nerd Font Bold Italic
+font-size = 10
+shell-integration-features = no-sudo,no-title
 
 background = #000000
-background-opacity = 0.4
+background-opacity = 0.0
 foreground = #ff007b
 
 keybind = cmd+g>r=reload_config
-# window-padding-x = 2
+window-padding-x = 2
 #
 # # Spacing around the equals sign does not matter.
 # # All of these are identical:

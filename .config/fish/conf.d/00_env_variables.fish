@@ -14,6 +14,7 @@ set -gx VK_ADD_LAYER_PATH $VULKAN_SDK/share/vulkan/explicit_layer.d
 set -gx VK_LOADER_LAYERS_ENABLE "*api_dump:*validation"
 set -gx XDG_CONFIG_HOME $HOME/.config
 set -gx AICHAT_PLATFORM openai
+set -gx PYENV_ROOT /home/fox/.pyenv
 
 # fish
 set -g fish_key_bindings fish_vi_key_bindings

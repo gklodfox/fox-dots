@@ -47,6 +47,7 @@ for_window [class="discord"] move --no-auto-back-and-forth container to workspac
 for_window [class="com.mitchellh.ghostty"] move --no-auto-back-and-forth container to workspace $ws2
 for_window [class="Alacritty"] move --no-auto-back-and-forth container to workspace $ws2
 for_window [class="qutebrowser"] move --no-auto-back-and-forth container to workspace $ws3
+for_window [class="Transformice"] move --no-auto-back-and-forth container to workspace $ws5
 for_window [window_role="About"] floating enable
 for_window [window_role="Organizer"] floating enable
 for_window [window_role="Preferences"] floating enable
