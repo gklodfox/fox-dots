@@ -1,8 +1,0 @@
-# see https://github.com/sigoden/aichat/blob/main/config.example.yaml
-
-save_session: true
-
-keybindings: vi
-editor: nvim
-wrap: auto
-wrap_code: true

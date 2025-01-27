@@ -16,3 +16,6 @@
 [submodule ".config/picom"]
 	path = .config/picom
 	url = https://github.com/gklodfox/fox-picom-config.git
+[submodule ".config/aichat"]
+	path = .config/aichat
+	url = https://github.com/gklodfox/fox-aichat-config.git
