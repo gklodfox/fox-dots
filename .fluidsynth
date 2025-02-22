@@ -3,4 +3,4 @@ set midi.driver alsa_seq
 set midi.alsa.device hw:2,0,0
 set midi.autoconnect True
 set synth.gain 1.0
-set synth.default-soundfont /home/fox/Documents/soundfonts/ChateauGrand-Plus-Instruments-bs16i-v4.sf2
+set synth.default-soundfont /home/fox/Documents/soundfonts/YamahaC5Grand-v2.4.sf2
